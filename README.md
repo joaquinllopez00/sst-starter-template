@@ -2,6 +2,8 @@
 
 ---
 
+_Note: The Amazon Sumerian service has since been sunset. The version of AWS Amplify currently in this template have been deprecated and you will need to upgrade the packages for this template to be fully functional. At some point in the future I will update this template (probably whenever I need it again), but for now plan for that upgrade._
+
 ### Apps and Packages
 
 - `docs`: a [Next.js](https://nextjs.org/) app
