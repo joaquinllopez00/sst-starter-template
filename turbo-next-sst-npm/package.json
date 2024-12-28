@@ -1,0 +1,38 @@
+{
+  "name": "turbo-next-sst-npm",
+  "private": true,
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "sst:dev": "sst dev --profile=server",
+    "sst:build": "sst build",
+    "deploy": "sst deploy",
+    "remove": "sst remove",
+    "console": "sst console",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@repo/eslint-config": "*",
+    "@repo/typescript-config": "*",
+    "@tsconfig/node18": "^18.2.2",
+    "@types/swagger-jsdoc": "6.0.2",
+    "aws-cdk-lib": "2.101.1",
+    "constructs": "10.2.69",
+    "eslint": "^8.48.0",
+    "prettier": "^3.0.3",
+    "turbo": "latest",
+    "sst": "^2.32.2",
+    "swagger-jsdoc": "6.2.8",
+    "typescript": "^5.2.2"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "packageManager": "npm@9.5.1",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
+}
