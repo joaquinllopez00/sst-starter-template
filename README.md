@@ -2,7 +2,10 @@
 
 ---
 
-_Note: The Amazon Sumerian service has been deprecated #RIP. The version of AWS Amplify currently in this template have been deprecated and you will need to upgrade the packages for this template to be fully functional. At some point in the future I will update this template (probably whenever I need it again), but for now plan for that upgrade._
+_Note_: 
+- The Amazon Sumerian service has been deprecated #RIP. The version of AWS Amplify currently in this template have been deprecated and you will need to upgrade the packages for this template to be fully functional. At some point in the future I will update this template (probably whenever I need it again), but for now plan for that upgrade at the very least.
+- SST has since introduced a LOT of cool things in newer versions, and I would strongly suggest only referring to this repo as a solid structure / starting point.
+
 
 ### Apps and Packages
 
